@@ -27,7 +27,6 @@ A simple Node.js API that provides a persistent list of **33 todos**. The API is
 2. **Install dependencies**
     ```
     npm install
-    Start the server
     ```
 3. **Start the server**
     ```
