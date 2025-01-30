@@ -41,16 +41,14 @@ Fetch Todos
   ```
   GET /todos?start={number}&end={number}
   ```
-  <br>
-- **Query Parameters:**
-  `start` (optional) – Starting index (default: `1`)
-  `end` (optional) – Ending index (default: `33`)
+- **Query Parameters:**<br>
+  `start` (optional) – Starting index (default: `1`)<br>
+  `end` (optional) – Ending index (default: `33`)<br>
   <br>
 - **Example Request:**
   ```
   GET /todos?start=5&end=10
   ```
-  <br>
 - **Example Response:**
   ```
   [
@@ -68,27 +66,22 @@ Fetch Todos
     ```
     docker build -t lunohod1/todo .
     ```
-    <br>
 2. **Run the Container**
     ```
     docker run -p 8080:8080 lunohod1/todo
     ```
-
     The API will be available at http://localhost:8080/todos
     <br>
 
 3. **Push to Docker Hub**
-
     ```
     docker login
     docker push lunohod1/todo
     ```
-    <br>
 4. **Run from Docker Hub**
     ```
     docker run -p 8080:8080 lunohod1/todo
     ```
-    <br>
 ## 📁 Project Structure
 ```
 todo/
